@@ -2358,6 +2358,11 @@ expo-sqlite@~8.0.0:
     "@types/websql" "^0.0.27"
     lodash "^4.17.15"
 
+expo-task-manager@~8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/expo-task-manager/-/expo-task-manager-8.0.0.tgz#cf79e11fe2a48217f59896419aff401cdd776c28"
+  integrity sha512-gvb4cRzoZW7xpvX5z34gGhGTyr2LipLgqkbn+/hpyF1gKwySGiWjJOn20/VtjVXSCywTLCgxXbLbg+HzegCenQ==
+
 expo-web-browser@~8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/expo-web-browser/-/expo-web-browser-8.0.0.tgz#8a4451c744c115569a4c810dac8851f219a21c72"
@@ -4325,6 +4330,11 @@ react-native-iphone-x-helper@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/react-native-iphone-x-helper/-/react-native-iphone-x-helper-1.2.1.tgz#645e2ffbbb49e80844bb4cbbe34a126fda1e6772"
   integrity sha512-/VbpIEp8tSNNHIvstuA3Swx610whci1Zpc9mqNkqn14DkMbw+ORviln2u0XyHG1kPvvwTNGZY6QpeFwxYaSdbQ==
+
+react-native-maps@0.26.1:
+  version "0.26.1"
+  resolved "https://registry.yarnpkg.com/react-native-maps/-/react-native-maps-0.26.1.tgz#6ec316259b38d259c8974448d894bd7a23101da4"
+  integrity sha512-p4VTB8YB5ZmOmDRCUpoHZkm05amZwhIo04AJMBbB9+JAR2PNNfpo0vceoWX0Mag4wnePkdzPomeWMplr/wimTg==
 
 react-native-reanimated@~1.4.0:
   version "1.4.0"

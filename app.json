@@ -19,7 +19,13 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIBackgroundModes": ["location", "fetch"],
+        "NSLocationWhenInUseUsageDescription": "CoTrack necesita acceder a su ubicación para poder poder establecer si ha estado en contacto con el virus",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "CoTrack necesita acceder a su ubicación para poder poder establecer si ha estado en contacto con el virus",
+        "NSLocationAlwaysUsageDescription": "CoTrack necesita acceder a su ubicación para poder poder establecer si ha estado en contacto con el virus"
+      }
     }
   }
 }

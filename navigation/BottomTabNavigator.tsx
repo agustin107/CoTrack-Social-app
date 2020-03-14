@@ -1,11 +1,13 @@
 import * as React from 'react';
+import { Platform } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+
 import TabBarIcon from '../components/TabBarIcon';
 import Diagnostic from '../screens/Diagnostic';
-import { Platform } from 'react-native';
+import LocationAlerts from '../screens/LocationAlerts';
 
 const Tab = createBottomTabNavigator();
-const INITIAL_ROUTE_NAME = 'Diagnostic';
+const INITIAL_ROUTE_NAME = 'Map';
 const isIOS = Platform.OS === 'ios';
 
 export default function BottomTabNavigator({ navigation, route }) {
@@ -37,7 +39,7 @@ export default function BottomTabNavigator({ navigation, route }) {
             <TabBarIcon focused={focused} name={isIOS ? 'ios-map' : 'md-map'} />
           ),
         }}
-        component={Diagnostic}
+        component={LocationAlerts}
       />
       <Tab.Screen
         name="Prevention"
