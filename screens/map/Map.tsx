@@ -22,7 +22,7 @@ import MapView, {
 } from 'react-native-maps';
 import BottomSheet from 'reanimated-bottom-sheet';
 
-import { locationService } from '../utils/locationService';
+import { locationService } from '../../utils/locationService';
 import { LocationData } from 'expo-location';
 // import Animated from 'react-native-reanimated';
 // import { getTabBarHeight } from '../components/TabBarComponent';
@@ -69,7 +69,7 @@ function PanelContent() {
       </View>
       <Image
         style={panelStyles.photo}
-        source={require('../assets/images/airport-photo.jpg')}
+        source={require('../../assets/images/airport-photo.jpg')}
       />
     </View>
   );

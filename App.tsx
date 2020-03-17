@@ -6,7 +6,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { NavigationContainer } from '@react-navigation/native';
 
 import useLinking from './navigation/useLinking';
-import MainNavigator from './navigation/MainNavigator';
+import BottomTabNavigator from './navigation/BottomTabNavigator';
 
 export default function App(props) {
   const [isLoadingComplete, setLoadingComplete] = React.useState(false);
@@ -52,7 +52,7 @@ export default function App(props) {
           ref={containerRef}
           initialState={initialNavigationState}
         >
-          <MainNavigator />
+          <BottomTabNavigator />
         </NavigationContainer>
       </View>
     );
